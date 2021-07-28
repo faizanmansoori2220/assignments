@@ -1,0 +1,5 @@
+l=[int(x) for x in input("Enter List values:").split()]
+l.sort()
+desc=l[::-1]
+print(l)
+print(desc)
